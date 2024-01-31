@@ -55,5 +55,12 @@ ul{
         padding:0.2rem;
         
     }
+    .line{
+        position: sticky;
+        display: block;
+        width: 1rem;
+        height: 2px;
+        color:#FBBD60;
+    }
   
 }
