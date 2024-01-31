@@ -1,9 +1,19 @@
-body{
-    background-color: #6C737D;
-}
-nav{
+body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #6C737D;
+        font-family: 'inter', sans-serif;
+    }
+ header{
+    display: flex;
     background-color: #4B5058;
-    border-radius: 5px;
+    height: 10%;
+    width: 100%;
+    
+ }
+nav{
+    background-color:#41464D;
 }
 a{
     text-decoration: none;
@@ -15,7 +25,35 @@ a{
 ul{
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    
     align-items: center;
     height: 50px;
+    
+}
+
+@media (max-width: 348px) {
+    ul{
+        flex-direction: column;
+        height: 100%;
+    }
+    a{
+        font-size: 1.5rem;
+       
+    }
+    nav{
+        
+        background-color: #41464D;
+        width: 50%;
+        height: 100%;
+        padding-top: 9rem;
+        margin-top: -90px;
+       
+      
+    }
+
+    li{
+        padding:0.2rem;
+        
+    }
+  
 }
