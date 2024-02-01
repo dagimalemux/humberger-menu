@@ -44,7 +44,7 @@ a {
         justify-content: flex-end; /* Align items to the right */
         flex-direction: column;
         
-
+         display: none;
     }
     nav ul{
         margin-bottom: 28rem;
@@ -64,8 +64,8 @@ a {
     .hum {
         
         display: flex;
-        width: 50px; /* Adjust width as needed */
-        height: 50px; /* Adjust height as needed */
+        width: 30px; /* Adjust width as needed */
+        height: 30px; /* Adjust height as needed */
         position: relative;
         cursor: pointer;
         justify-content: center;
@@ -88,6 +88,24 @@ a {
     
     .line:nth-child(2) {
         transform: rotate(-45deg); /* Rotate second line by -45 degrees */
+    }
+
+    header{
+        background-color: #4B5058;
+        height: 70px;
+        justify-content: center;
+        width: auto;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        
+    }
+   .lines{
+        background-color: #FBBD60;
+        height: 4px;
+        width: 50px;
+        margin: 4px;
+        margin-right: 3%;
     }
    
 }
