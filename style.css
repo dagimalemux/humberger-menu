@@ -44,7 +44,7 @@ a {
         justify-content: flex-end; /* Align items to the right */
         flex-direction: column;
         
-         display: none;
+         /* display: none; */
     }
     nav ul{
         margin-bottom: 28rem;
@@ -106,6 +106,7 @@ a {
         width: 50px;
         margin: 4px;
         margin-right: 3%;
+        cursor: pointer;
     }
    
 }
